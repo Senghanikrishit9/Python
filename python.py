@@ -1,36 +1,35 @@
-# # 1 . Arithmetic Operators
+# TASK
 
-a = 12
-b = 13
+# 1 . Check whether a number is postive or nagtive 
  
-print(a + b)
-
-a = 12
-b = 13
-
-print(a - b) 
-
-# 1 . Method
-
-a = 12/2
-print(int(a))
-
-# 2 . Method
-
-a = 12//2
-print(a)
+num = int(input("Enter your number :-"))
+if num >= 0:
+    print("you enter the postive number")
+else:
+    print("you enter the negative number")
 
 
-a = 12
-b = 13
-c = a * b
-print(c)
+# 2 . Check whether a number is divided by 3
 
- 
-print( 3 + 4 * 2)
-print(15 // 4 + 15 % 4)
-print(3 + 2 ** 2 * 5 - 1)
+num = int(input("Enter your number :-"))
+if (num % 3 == 0):
+    print("Enter number is divided by 3")
+else:
+    print("Enter number is not divided by 3")
 
-# comparision operators
+# 3 . Ask for age and print  whether  the user  is a child  or adult
 
-print(12 == 12)
+
+age = int(input("Enter your age :-"))
+
+if (age >=18):
+    print("you are adult")
+else :
+     print("you are child")
+
+# 4 . Print "hello"  if the user Enter the name
+
+
+name = input("enter your name :-")
+
+print(f"hello :- {name}")
