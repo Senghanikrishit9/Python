@@ -1,15 +1,36 @@
-# 5 . Input & Ouput 
+# # 1 . Arithmetic Operators
 
-name = "krishit senghani"
-age = 19
+a = 12
+b = 13
+ 
+print(a + b)
 
-print(f"My name is  {name} & My age is {age}")
+a = 12
+b = 13
+
+print(a - b) 
+
+# 1 . Method
+
+a = 12/2
+print(int(a))
+
+# 2 . Method
+
+a = 12//2
+print(a)
 
 
-name = "krish senghani"
-age = 19
+a = 12
+b = 13
+c = a * b
+print(c)
 
-print("My name is",name,"my age is",age)
+ 
+print( 3 + 4 * 2)
+print(15 // 4 + 15 % 4)
+print(3 + 2 ** 2 * 5 - 1)
 
-age = int(input("Enter your age :-"))
-print(f"hello my age is {age}")
+# comparision operators
+
+print(12 == 12)
