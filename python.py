@@ -1,18 +1,15 @@
-# Data types
+# 5 . Input & Ouput 
 
-# 1 . String :-
+name = "krishit senghani"
+age = 19
 
-name = "krishit"
-age = "19"
-print(type(name), name)
-print(type(age), age)
-
-# 2 . Boolean :-
-
-a = True 
-b = False
-
-print(type(a) ,a)
-print(type(b),b)
+print(f"My name is  {name} & My age is {age}")
 
 
+name = "krish senghani"
+age = 19
+
+print("My name is",name,"my age is",age)
+
+age = int(input("Enter your age :-"))
+print(f"hello my age is {age}")
