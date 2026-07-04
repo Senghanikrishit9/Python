@@ -1,20 +1,22 @@
 # 1 . If else-statment
 
-#  An if-else statement helps a program make a decision: if a condition is true, 
-# it runs one block of code;
+# TASK :-
 
-if 23 == 23:
-    print("hello how are you ")
+# 1. Calculate grade from marks using if-else
 
-if 23 >= 22:
-    print("hii")
+marks = int(input("enter your marks :-"))
 
-
-
-age = int(input("Enter your age :-"))
-if age <= 18 :
-    print("you are not able to vote")
-else:
-    print("you are able to vote")
-
-
+if marks >= 90:
+    print("you got A+ grade")
+elif marks >= 80 :
+    print("you got A grade")
+elif marks >= 70 :
+    print("you got B+ grade")
+elif marks >= 60 :
+    print("you got B grade")
+elif marks >= 50 :
+    print("you got C grade")
+elif marks >= 40 :
+    print("you got C+ grade")
+else :
+    print("you are fail")
