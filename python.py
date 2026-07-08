@@ -1,30 +1,30 @@
 # 1 . Loops
 
-# 1. you spoat an accident ahead - youimmediately stop and 
-# take  a U-Trun. loop ends completely
+# 1. print "hello world" n times
 
-for i in range(1,11):
-    if i == 6:
-        break
-    print(f"Stop number :- {i}")
+n = int(input("Enter your number :-"))
 
+for i in range(n):
+    print(f"hello world :- {i} times")
 
-# 2 . One signal is broken - you can skip it and keep driving 
-# to the next one. loops skip  this iteration.
+# 2. print natural number  form  1 to n
 
+n = int(input("Enter the number :-"))
 
-for i in range(1,16):
-    if i == 10:
-        continue
-    print(f"total signal taken :- {i}")
-
-
-# 3 . You crossed  all signals with no problems you reached home 
-# safely . Runs only when loop finishes without any break
-
-for i in range(1,11):
-    if i == 12:
-        break
+for i in range(1,n+1):
     print(i)
-else :
-    print(f"total  signals crossed without any problems {i}")
+ 
+# 3.  Reversed for loop  - print  n down to 1
+
+
+n  = int(input("Enter your number :-"))
+
+for i in range(n,0,-1):
+    print(i)
+
+# 4 . miltipilation task
+
+n = int(input("Enter the number :-"))
+
+for i in range(1,11,):
+    print(f"{n} x {i} = { n* i}")
