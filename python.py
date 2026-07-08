@@ -1,22 +1,13 @@
-# 1 . Loops
+# 1.loops
 
-# 1) Print numbers from 1 to 5
+a = "krishit"
 
-for i in range(1, 6):
+for i in a :
     print(i)
 
-# 2) Print each item in a list
+b = "krishit senghani"
 
-fruits = ["apple", "banana", "mango"]
-
-for fruit in fruits:
-    print(fruit)
+for i in range(0,len(b)):
+    print(f"{i} :- {b[i]}")
 
 
-# 3) Print 1 to 5 using while loop
-
-i = 1
-
-while i <= 5:
-    print(i)
-    i += 1
