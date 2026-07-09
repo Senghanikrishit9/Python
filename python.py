@@ -1,30 +1,41 @@
-# 1 . Loops
+# Task
 
-# 1. print "hello world" n times
+# 1 . tASK :-
 
-n = int(input("Enter your number :-"))
+a = 0
+b= 0
+n = int(input("Enter the number :-"))
+ 
+for i in range(1,n+1):
+    a = a + i
+    b = b + i
+    if a % 2 == 0:
+        print(f"even number :- {a}")
+    else:
+        print(f"odd number  :- {b}")
 
-for i in range(n):
-    print(f"hello world :- {i} times")
+# 2 .tASK :-
 
-# 2. print natural number  form  1 to n
+s = 1
+n = int(input("Enter a number :-"))
 
+for i in range(1,n+1):
+    s = s*i
+    print(s)
+
+# 3 . TASk : -
+
+a = 0
+n = int(input("Enter the number :-"))
+
+for i in range(1,n +1):
+    a = a +i
+    print(a)
+
+# 4 .Task :-
+ 
 n = int(input("Enter the number :-"))
 
 for i in range(1,n+1):
-    print(i)
- 
-# 3.  Reversed for loop  - print  n down to 1
-
-
-n  = int(input("Enter your number :-"))
-
-for i in range(n,0,-1):
-    print(i)
-
-# 4 . miltipilation task
-
-n = int(input("Enter the number :-"))
-
-for i in range(1,11,):
-    print(f"{n} x {i} = { n* i}")
+    if n % i == 0:
+        print(i)
