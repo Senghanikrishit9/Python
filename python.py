@@ -1,41 +1,40 @@
 # Task
 
-# 1 . tASK :-
-
-a = 0
-b= 0
-n = int(input("Enter the number :-"))
- 
-for i in range(1,n+1):
-    a = a + i
-    b = b + i
-    if a % 2 == 0:
-        print(f"even number :- {a}")
-    else:
-        print(f"odd number  :- {b}")
-
-# 2 .tASK :-
-
-s = 1
-n = int(input("Enter a number :-"))
-
-for i in range(1,n+1):
-    s = s*i
-    print(s)
-
-# 3 . TASk : -
-
-a = 0
 n = int(input("Enter the number :-"))
 
-for i in range(1,n +1):
-    a = a +i
-    print(a)
-
-# 4 .Task :-
- 
-n = int(input("Enter the number :-"))
-
-for i in range(1,n+1):
+s = 0
+for i in range(1,n):
     if n % i == 0:
-        print(i)
+        s = s + i
+
+if s == n:
+    print("perfect number")
+else:
+    print("looser")
+
+
+
+n = int(input("Enter the number :-"))
+count = 0
+
+for i in range(n,n+1):
+    if  n % i == 2:
+        count = count + 1
+if count == 2:
+    print("prime number")
+else:
+    print("not a prime number")
+
+
+s = input("Enter the name :-")
+rev = ""
+for i in range(len(s)-1,-1,-1):
+    rev = rev + s[i]
+
+if rev == s:
+    print("palidrome")
+else :
+    print("Not palidrome")
+    
+
+       
